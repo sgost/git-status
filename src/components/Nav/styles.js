@@ -52,7 +52,6 @@ button:hover{
     color:#2997F9;
 }
 }
-
 /*==============contact==================*/
 .ant-modal-content{
   height: 100%;
@@ -111,10 +110,9 @@ button:hover{
     padding:3vw 0;
   }
 }
-
 @media (max-width:750px){
     .NavSection{
-        padding: 23px 34px;
+        padding: 13px 30px;
         img{
             width: 90.75px;
         }

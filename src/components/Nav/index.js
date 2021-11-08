@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import { NavSection } from "./styles"
 import img from "../../images/logo.png"
 import { Modal } from 'antd';
@@ -62,8 +62,8 @@ const Nav = () =>
     return (
         <>
             <NavSection>
-                <div data-aos="fade-down" id={ navbar ? "NavSection" : "NavSection2" } className="NavSection">
-                    <img src={ img } alt="img" />
+                <div id={ navbar ? "NavSection" : "NavSection2" } className="NavSection">
+                    <Link to="/" style={{width:`fit-content`, height:`fit-content`, margin:`auto 0`, display:`flex`, alignItems:`center`}}><img src={ img } alt="img" /></Link>
                     <button onClick={ () => setContact( true ) } >Contact Us</button>
                 </div>
                 <Modal

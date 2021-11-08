@@ -36,7 +36,7 @@ const Contact = () =>
                         </div>
                         <iframe
                             title="Archimedis"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.306655100214!2d80.0145069!3d12.9989065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd072fdf7b5826742!2sArchimedis%20Healthcare%20Private%20Limited%20-%20Reputed%20Pharma%20Manufacturers%20Chennai!5e0!3m2!1sen!2sin!4v1623929915150!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.7599284769844!2d-79.9094553845514!3d43.319284779134115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c9d3a6dc1b965%3A0xfd665e1cacf94524!2s44%20Grindstone%20Way%2C%20Dundas%2C%20ON%20L9H%207B7%2C%20Canada!5e0!3m2!1sen!2sin!4v1636461270509!5m2!1sen!2sin"
                             id="contact_img_block_bottom_blocks2"
                         ></iframe>
                     </div>

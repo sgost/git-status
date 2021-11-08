@@ -2,6 +2,8 @@ import React from "react"
 import linkdin from "../../../images/landing/link.svg"
 import fb from "../../../images/landing/fb.svg"
 import insta from "../../../images/landing/insta.svg"
+import tube from "../../../images/landing/tube.svg"
+import twit from "../../../images/landing/twit.svg"
 import logo from "../../../images/logo.png"
 import { Link } from "gatsby"
 import { FooterContainer } from "./styles"
@@ -11,8 +13,7 @@ const Footer = () =>
 {
   return (
     <FooterContainer>
-      <div id="footer" data-aos="fade-down"
-        data-aos-anchor-placement="top-bottom">
+      <div id="footer">
         <div id="footer_container">
           <div id="footer_container_top">
             <div id="footer_logo">
@@ -60,6 +61,8 @@ const Footer = () =>
               <a href="/"><img src={ linkdin } alt="img" /></a>
               <a href="/"><img src={ fb } alt="img" /></a>
               <a href="/"><img src={ insta } alt="img" /></a>
+              <a href="/"><img src={ twit } alt="img" /></a>
+              <a href="/"><img src={ tube } alt="img" /></a>
             </div>
             <p>Copyright © 2021 Archimedis. All rights reserved.</p>
           </div>

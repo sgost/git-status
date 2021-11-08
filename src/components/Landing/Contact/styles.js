@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const ContactSection = styled.div`
 .contact {
-    padding: 4vw 0 11vw 0;
+    padding: 2vw 0 3vw 0;
     background: white;
   }
   .contact h1 {
@@ -17,7 +17,7 @@ export const ContactSection = styled.div`
     max-width: calc(100% - 15.2%);
     margin: auto;
     display: flex;
-    margin-top: 5.25179856115108vw;
+    margin-top: 3.251799vw;
     border-radius: 1.15107913669065vw 0px 0px 1.15107913669065vw;
   }
   .contact_contrainer #contact_img_block_top p {
@@ -54,8 +54,8 @@ export const ContactSection = styled.div`
     margin-top: 0.5vw;
   }
   #contact_img_block_bottom_blocks img {
-    width: 1.15107913669065vw;
-    height: 1.15107913669065vw;
+    width: 1.2vw;
+    height: 1.2vw;
     margin-top: 0.575539568345324vw;
   }
   #contact_img_block_bottom_blocks_b1 p {
@@ -208,7 +208,7 @@ export const ContactSection = styled.div`
     border: none;
     width: 20.2877697841727vw;
     height: 3.30935251798561vw;
-    background: #02042B;
+    background: #2790F9;
     border-radius: 0.575539568345324vw;
     cursor: pointer;
   }

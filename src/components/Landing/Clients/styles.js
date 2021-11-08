@@ -1,16 +1,31 @@
 import styled from "styled-components"
 
 export const ClientsSection = styled.div`
-padding:6.30434782608696vw 11vw 6.88405797101449vw 11vw;
+padding:6.30434782608696vw 11vw 12vw 11vw;
 background: #F1F9FF;
-a{
-    display:none;
+
+.ant-carousel .slick-dots-bottom{
+    bottom:-4.5vw;
 }
-.carousel-indicators{
-    top:42vw;
+.ant-carousel .slick-dots li.slick-active {
+      opacity: 1;
+    background: linear-gradient(149.47deg, #2790F9 22.32%, #31B0F9 140.45%);
+    width: 0.869565217391304vw;
+    height: 0.869565217391304vw;
+    margin-left:0.869565217391304vw;
+    border-radius:8vw;
+    position:relative;
 }
-ol li {
-    padding-left: 0;
+.ant-carousel .slick-dots li.slick-active button{
+      opacity: 1;
+    background: linear-gradient(149.47deg, #2790F9 22.32%, #31B0F9 140.45%);
+    width: 0.869565217391304vw;
+    height: 0.869565217391304vw;
+    margin-left:0;
+    border-radius:8vw;
+}
+.ant-carousel .slick-dots li {
+        padding-left: 0;
     background: linear-gradient(149.47deg, #2790F9 22.32%, #31B0F9 140.45%);
     opacity: 0.3;
     width: 0.869565217391304vw;
@@ -18,9 +33,53 @@ ol li {
     margin-left:0.869565217391304vw;
     border-radius:8vw;
 }
-.carousel-indicators .active {
-    opacity: 1;
+.ant-carousel .slick-dots li button {
+        padding-left: 0;
     background: linear-gradient(149.47deg, #2790F9 22.32%, #31B0F9 140.45%);
+    opacity: 0.3;
+    width: 0.869565217391304vw;
+    height: 0.869565217391304vw;
+    margin-left:0;
+    border-radius:8vw;
+}
+a{
+    display:none;
+}
+
+#btn_main{
+    position:relative;
+    width:100%;
+    margin: 3.8vw 0 0 0;
+#btn{
+    position:absolute;
+    left:0;
+    display:flex;
+    justify-content:space-between;
+    top:16.5vw;
+    z-index:1;
+    width:116%;
+    left:-6vw;
+}
+ .icon {
+    display: inline-block;
+    border: 1.5px solid #2790F9;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #2790F9;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:17px;
+    padding:0;
+    cursor:pointer;
+}
+}
+ol li {
+    padding-left: 0;
+    background: linear-gradient(149.47deg, #2790F9 22.32%, #31B0F9 140.45%);
+    opacity: 0.3;
     width: 0.869565217391304vw;
     height: 0.869565217391304vw;
     margin-left:0.869565217391304vw;
@@ -35,20 +94,25 @@ text-align: center;
 color: #200E32;
 margin:0;
 }
+.main_carousal_control{
+    box-shadow: 0px 0px 2.17391304347826vw rgba(23, 25, 74, 0.1);
+border-radius: 1.73913043478261vw;
+}
 #carousal{
     width:100%;
-             margin:5.28985507246377vw 0 0 0;
+    border-radius: 1.73913043478261vw;
+height:100%;
+overflow:hidden;
+
 }
 #carousal #carousal_main{
-    background: #FFFFFF;
-box-shadow: 0;
-border-radius: 1.73913043478261vw;
 display:flex;
 align-items:center;
 width:100%;
 height:fit-content;
 padding:4.42028985507246vw 8.26086956521739vw;
 margin:auto;
+background:white;
 }
 #carousal #carousal_main #carousal_img_main{
     width: fit-content;
@@ -132,16 +196,36 @@ padding:0.72463768115942vw 0 0.72463768115942vw 3.11594202898551vw;
      .carousel-indicators {
         top: 108%;
     }
-    ol li {
+    #btn_main{
+    #btn{
+        display:none;
+    }
+}
+    .ant-carousel .slick-dots-bottom{
+        bottom:-7.5vw;
+    }
+    .ant-carousel .slick-dots li.slick-active {
         width: 2.5vw;
         height: 2.5vw;
         margin-left:2vw;
         border-radius:8vw;
     }
-    .carousel-indicators .active {
+    .ant-carousel .slick-dots li.slick-active button{
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-left:0;
+        border-radius:8vw;
+    }
+    .ant-carousel .slick-dots li {
         width: 2.5vw;
         height: 2.5vw;
         margin-left:2vw;
+        border-radius:8vw;
+    }
+    .ant-carousel .slick-dots li button {
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-left:0;
         border-radius:8vw;
     }
     #carousal #carousal_main {
@@ -231,7 +315,7 @@ background: linear-gradient(304.91deg, #AB58D8 -31.72%, #FF86D8 78.18%);
 
 
 export const Detail = styled.div`
-padding:6.30434782608696vw 11vw 6.88405797101449vw 11vw;
+padding: 12vw 11vw;
 background:white;
 #detail_container{
     width: 100%;

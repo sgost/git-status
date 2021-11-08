@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const FeaturesSection = styled.div`
-padding:3.4vw 11vw 5vw 11vw;
+padding:7vw 11vw 5vw 11vw;
 background: #F1F9FF;
 #FeaturesContainer{
     width:100%;
@@ -36,6 +36,9 @@ margin:0.72463768115942vw auto 0 auto;
     justify-content:space-between;
     background:transparent;
     padding:2vw 0 0 0;
+}
+#Feature_card_container #card:nth-child(1){
+    padding:5vw 0 0 0;
 }
 #Feature_card_container #card:nth-child(even){
     flex-direction:row-reverse;
@@ -84,7 +87,6 @@ align-items:center;
     }
     button .icon{
         margin-left:1vw;
-        transition:0.5s ease-in-out;
     }
     button:hover{
         box-shadow: 0px 0px 1vw #2997f942;
@@ -110,7 +112,7 @@ align-items:center;
     #FeaturesContainer h2{
         font-size: 2.92682926829268vw;
             line-height: 4.39024390243902vw;
-            width: 77.0731707317073vw;
+            width: 84vw;
             margin:0 auto;
     }
      #Feature_card_container #card {
@@ -120,6 +122,9 @@ align-items:center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    #Feature_card_container #card:nth-child(1){
+        padding:15vw 0 0 0;
     }
     #Feature_card_container #card:nth-child(even){
         flex-direction:column;
@@ -140,8 +145,8 @@ line-height: 7.07317073170732vw;
 margin:0;
     }
     #Feature_card_container #card #card_matter p {
-        font-size: 2.92682926829268vw;
-line-height:4.39024390243902vw;
+        font-size: 3.5vw;
+line-height:5vw;
 width: 77.8048780487805vw;
 margin:2vw 0 3vw 0;
     }
@@ -169,7 +174,7 @@ margin:0;
 
 export const FeaturesSection2 = styled.div`
 width:100%;
-padding:7vw 11vw;
+padding:10vw 11vw;
 background:white;
  #Features2Container {
     display: grid;
@@ -224,7 +229,6 @@ transition:0.5s ease-in-out;
     }
     button .icon{
         margin-left:1vw;
-        transition:0.5s ease-in-out;
     }
     button:hover{
         box-shadow:0px 0px 1vw #2997f942;
@@ -250,7 +254,7 @@ transition:0.5s ease-in-out;
     #Features2Container #card p {
         font-size: 3.5vw;
         line-height:4.39024390243902vw;
-        width: 80vw;
+        width: 77vw;
         margin: 1.5vw 0 5vw 0;
     }
      #Features2Container #card h1 {

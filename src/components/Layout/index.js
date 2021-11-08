@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { GlobalStyle } from '../../styles/global-styles';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = props => {
   return (
