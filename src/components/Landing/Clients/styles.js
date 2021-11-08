@@ -329,7 +329,7 @@ padding:10vw 5.41666666666667vw 15.4166666666667vw 5.41666666666667vw;
         line-height: 5.83333333333333vw;
         width: 73vw;
         text-align: center;
-        margin: 4.16666666666667vw auto 5.83333333333333vw auto;
+        margin: 4.5vw auto 6vw auto;
     }
     #detail_container #detail_container_matter #detail_container_matter_mini{
         width:fit-content;

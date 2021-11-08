@@ -113,7 +113,7 @@ button:hover{
 }
 
 @media (max-width:750px){
-    #NavSection{
+    .NavSection{
         padding: 23px 34px;
         img{
             width: 90.75px;
