@@ -1,14 +1,20 @@
-import React, { Fragment } from "react"
+import React from "react"
+import Banner from "../components/Landing/Banner/banner"
+import Illuminating from "../components/Landing/Illuminating"
+import Features from "../components/Landing/Features"
+import Clients from "../components/Landing/Clients"
+import Footer from "../components/Landing/Footer"
 
-import SEO from "../components/seo"
 
 const IndexPage = () => {
   return (
-    <Fragment>
-      <SEO title="Home" description="Gatsby is a React-based open source framework with performance, scalability and security built-in." keywords={['gatsby', 'react']} />
-      <div>Home</div>
-    </Fragment>
+    <div style={{overflow: 'hidden'}}> 
+      <Banner />
+      <Illuminating />
+      <Features />
+      <Clients />
+      <Footer />
+    </div>
   )
 }
-
 export default IndexPage
