@@ -14,10 +14,10 @@ export default function Banner ()
 {
 
     const [ show, setShow ] = useState( false )
-    document.addEventListener( "mousemove", parallax );
-    function parallax ( e )
+
+    const parallax = ( e ) =>
     {
-        this.querySelectorAll( '.img2' ).forEach( layer =>
+        document.querySelectorAll( '.img2' ).forEach( layer =>
         {
             const speed = layer.getAttribute( 'data-speed' )
 
@@ -49,15 +49,13 @@ export default function Banner ()
                     </div>
                     {
                         show ?
-                            <div id="image_matter_b2">
-                                <img src={ animi } alt="img" id="img3" className="img2" data-speed="2" />
+                            <div id="image_matter_b2" >
+                                <img src={ animi } alt="img" id="img3" className="img2" data-speed="2" onMouseMove={parallax}/>
 
-                                <img src={ man } alt="img" id="img3"  className="img2" data-speed="5" />
+                                <img src={ man } alt="img" id="img3"  className="img2" data-speed="5" onMouseMove={parallax} />
                             </div>
                             :
                             <div id="image_matter_b2" onMouseMove={() => setShow(true) }>
-
-
                                 <img src={ man_main } alt="img" id="img2" />
                             </div>
                     }
