@@ -16,7 +16,7 @@ const trans = ( x, y, s ) => `perspective(600px) rotateX(${x}deg) rotateY(${y}de
 export default function Banner ()
 {
 
-    const [ props, set ] = useSpring( () => ( { xys: [ 0, 0, 1 ], config: { mass: 10, tension: 200, friction: 50 } } ) )
+    const [ props, set ] = useSpring( () => ( { xys: [ 0, 0, 1 ], config: { mass: 10, tension: 200, friction: 450 } } ) )
 
     return (
 
@@ -28,12 +28,11 @@ export default function Banner ()
                     <img src={ bannerimg2 } alt="img" id="img2" />
                 </div>
                 <div id="image_matter" >
-                    <div id="image_matter_b1" data-aos="fade-up"
-                            data-aos-delay="4000">
-                        <h1 data-aos="fade-up">Team productivity and business
+                    <div id="image_matter_b1">
+                        <h1 >Team productivity and business
                             intelligence, all in one.</h1>
-                        <p data-aos="fade-up">Discover why HotKup will be as vital to your team as that first hot cup of morning coffee.</p>
-                        <div id="banner_search" data-aos="fade-up">
+                        <p >Discover why HotKup will be as vital to your team as that first hot cup of morning coffee.</p>
+                        <div id="banner_search" >
                             <input type="text" placeholder="Your email address" />
                             <button>Join Today - It’s Free<ArrowRightOutlined className="icon" /></button>
                         </div>
@@ -55,4 +54,3 @@ export default function Banner ()
         </BannerSection>
     )
 }
-

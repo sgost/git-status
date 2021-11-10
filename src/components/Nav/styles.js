@@ -15,7 +15,7 @@ z-index:3;
     rgba(255, 255, 255, 0.1) 0.01%,
     rgba(200, 200, 200, 0.1) 100%
   );
-  backdrop-filter: blur(120px);
+  backdrop-filter: blur(160px);
   button{
     color:#2997F9;
 }
