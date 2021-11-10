@@ -236,7 +236,6 @@ transition:0.5s ease-in-out;
     }
     button:hover .icon{
         margin-left:1.2vw;
-        transition:0.5s ease-in-out;
     }
 }
 
