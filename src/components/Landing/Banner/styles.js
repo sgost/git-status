@@ -89,16 +89,12 @@ align-items:center;
         width:37.9710144927536vw;
         height:37.9710144927536vw;
     }
-    #bannerSectionContainer #image_matter #image_matter_b2 #man{
-        width:fit-content;
-        height:fit-content;
+    #bannerSectionContainer #image_matter #image_matter_b2 #img2:nth-child(2){
+        width: 21vw;
+        height: auto;
         position:absolute;
-        top:13vw;
-        left:5vw;
-    }
-    #bannerSectionContainer #image_matter #image_matter_b2 #man img{
-        width: 23.8855072463768vw;
-        height: 24.0775362318841vw;
+        top:11vw;
+        left:6.8vw;
     }
     
 @media (max-width:750px){

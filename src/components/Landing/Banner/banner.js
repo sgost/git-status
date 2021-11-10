@@ -7,16 +7,21 @@ import animi from "../../../images/landing/bnr_animi.png"
 import man from "../../../images/landing/man.png"
 import Nav from "../../Nav"
 import { ArrowRightOutlined } from '@ant-design/icons'
-import { useSpring, animated } from 'react-spring';
 
-
-const calc = ( x, y ) => [ -( y - window.innerHeight / 2 ) / 20, ( x - window.innerWidth / 2 ) / 20, 1 ]
-const trans = ( x, y, s ) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
 export default function Banner ()
 {
+    document.addEventListener("mousemove", parallax);
+    function parallax(e){
+        this.querySelectorAll('#img2').forEach(layer => {
+            const speed = layer.getAttribute('data-speed')
 
-    const [ props, set ] = useSpring( () => ( { xys: [ 0, 0, 1 ], config: { mass: 10, tension: 200, friction: 450 } } ) )
+            const x = (window.innerWidth - e.pageX*speed)/100
+            const y = (window.innerHeight - e.pageY*speed)/100
+
+            layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+        })
+    }
 
     return (
 
@@ -29,28 +34,24 @@ export default function Banner ()
                 </div>
                 <div id="image_matter" >
                     <div id="image_matter_b1">
-                        <h1 >Team productivity and business
+                        <h1>Team productivity and business
                             intelligence, all in one.</h1>
-                        <p >Discover why HotKup will be as vital to your team as that first hot cup of morning coffee.</p>
-                        <div id="banner_search" >
+                        <p>Discover why HotKup will be as vital to your team as that first hot cup of morning coffee.</p>
+                        <div id="banner_search">
                             <input type="text" placeholder="Your email address" />
                             <button>Join Today - It’s Free<ArrowRightOutlined className="icon" /></button>
                         </div>
                     </div>
                     <div id="image_matter_b2">
-                        <animated.div onMouseMove={ ( { clientX: x, clientY: y } ) => ( set( { xys: calc( x, y ) } ) ) }
-                            onMouseLeave={ () => set( { xys: [ 0, 0, 1 ] } ) }
-                            style={ {
-                                transform: props.xys.interpolate( trans )
-                            } }>
-                            <img src={ animi } alt="img" id="img2" />
-                        </animated.div>
-                        <div id="man">
-                            <img src={ man } alt="img" />
-                        </div>
+
+
+                            <img src={ animi } alt="img" id="img2" data-speed="4" />
+    
+                            <img src={ man } alt="img" id="img2" data-speed="2"/>
                     </div>
                 </div>
             </div>
         </BannerSection>
     )
 }
+

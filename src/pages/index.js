@@ -17,10 +17,10 @@ const IndexPage = () => {
   return (
     <div style={{overflow: 'hidden'}}> 
       <Banner />
-      <Illuminating />
+      {/* <Illuminating />
       <Features />
       <Clients />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
