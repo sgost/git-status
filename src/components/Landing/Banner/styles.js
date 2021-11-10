@@ -102,12 +102,11 @@ height: auto;
 height: auto;
     }
     #bannerSectionContainer #image_matter #image_matter_b2 #img3:nth-child(2){
-        width: 23.8405797101449vw;
+        width: 100%;
 height: auto;
         position:absolute;
-        top:12vw;
-        left:6vw;
-    
+        top:0;
+        left:0;
     }
     
 @media (max-width:750px){

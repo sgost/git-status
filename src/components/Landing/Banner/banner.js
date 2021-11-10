@@ -1,14 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 // import { Link } from "gatsby"
 import { BannerSection } from "./styles"
 import bannerimg from "../../../images/landing/banner.svg"
 import bannerimg2 from "../../../images/landing/mob_banner.png"
-import animi from "../../../images/landing/man_main.png"
-import man from "../../../images/landing/man.png"
-
 import animi2 from "../../../images/landing/bnr_animi2.png"
 import man2 from "../../../images/landing/man2.png"
-
 import Nav from "../../Nav"
 import { ArrowRightOutlined } from '@ant-design/icons'
 
@@ -31,7 +27,7 @@ export default function Banner ()
 
     return (
 
-        <BannerSection  onMouseMove={ parallax }>
+        <BannerSection onMouseMove={ parallax }>
             <Nav />
             <div id="bannerSectionContainer">
                 <div id="image_container">
@@ -48,14 +44,11 @@ export default function Banner ()
                             <button>Join Today - It’s Free<ArrowRightOutlined className="icon" /></button>
                         </div>
                     </div>
+                    <div id="image_matter_b2">
+                        <img src={ animi2 } alt="img" id="img3" className="img2" data-speed="3" />
 
-                            <div id="image_matter_b2"> 
-                                <img src={ animi2 } alt="img" id="img3" className="img2" data-speed="2" />
-
-                                <img src={ man2 } alt="img" id="img3" className="img2" data-speed="5" />
-                            </div>
-
-
+                        <img src={ man2 } alt="img" id="img3" className="img2" data-speed="1.5" />
+                    </div>
                 </div>
             </div>
         </BannerSection>
