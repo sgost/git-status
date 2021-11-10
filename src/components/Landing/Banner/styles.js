@@ -93,8 +93,9 @@ height: auto;
         width: 23.8405797101449vw;
 height: auto;
         position:absolute;
-        top:11.9vw;
-        left:4.9vw;
+        top:12.3vw;
+        left:6.8vw;
+    
     }
     #bannerSectionContainer #image_matter #image_matter_b2 #img3{
         width: 37.9710144927536vw;
@@ -105,7 +106,8 @@ height: auto;
 height: auto;
         position:absolute;
         top:12vw;
-        left:7vw;
+        left:6vw;
+    
     }
     
 @media (max-width:750px){
