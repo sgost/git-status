@@ -278,6 +278,7 @@ background: linear-gradient(304.91deg, #AB58D8 -31.72%, #FF86D8 78.18%);
         flex-direction: row;
         justify-content: left;
         background: transparent;
+        margin:3vw 0 0 0;
     }
      #carousal #carousal_main #carousal_img_main img {
         width: 10.8333333333333vw;
@@ -295,10 +296,10 @@ background: linear-gradient(304.91deg, #AB58D8 -31.72%, #FF86D8 78.18%);
         text-align: left;
     }
      #carousal #carousal_main #carousal_img_main p {
-        font-size: 2.08333333333333vw;
+        font-size: 2.8vw;
         line-height: 3.75vw;
         text-align: left;
-        margin: 0;
+        margin: 1.5vw 0 0 0;
         color: #200E32;
         width:100%;
     }
