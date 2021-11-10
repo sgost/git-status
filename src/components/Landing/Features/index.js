@@ -15,9 +15,9 @@ const Features = () => {
     return (
         <>
             <FeaturesSection>
-                <div id="FeaturesContainer">
-                    <h1>Features</h1>
-                    <h2 >We save users time by reducing the volume of project follow-ups and feedback; while delivering key metrics that other multifunctional tools do not.</h2>
+                <div id="FeaturesContainer" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <h1  data-aos="fade-up">Features</h1>
+                    <h2 data-aos="fade-up">We save users time by reducing the volume of project follow-ups and feedback; while delivering key metrics that other multifunctional tools do not.</h2>
                 </div>
                 <div id="Feature_card_container">
                     <div id="card" data-aos="fade-up"
