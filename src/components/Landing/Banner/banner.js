@@ -3,7 +3,7 @@ import React from "react";
 import { BannerSection } from "./styles"
 import bannerimg from "../../../images/landing/banner.svg"
 import bannerimg2 from "../../../images/landing/mob_banner.png"
-import animi2 from "../../../images/landing/bnr_animi2.png"
+import animi2 from "../../../images/landing/bg.png"
 import man2 from "../../../images/landing/man2.png"
 import Nav from "../../Nav"
 import { ArrowRightOutlined } from '@ant-design/icons'
