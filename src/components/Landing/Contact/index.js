@@ -3,7 +3,7 @@ import img1 from "../../../images/landing/c_phone.png"
 import img2 from "../../../images/landing/c_mail.png"
 import { ContactSection } from "./styles"
 import { message } from "antd"
-import { SmileOutlined, DownOutlined, CloseOutlined } from "@ant-design/icons"
+import { SmileOutlined } from "@ant-design/icons"
 
 
 const Contact = () =>
@@ -24,18 +24,21 @@ const Contact = () =>
             content:
                 "Hello there! Thank you for reaching out. We will get back to you as quick as humanly possible.",
             className: "messageCont",
-            icon: <SmileOutlined style={ { display: 'flex', justifyContent: `center`, alignItems: `center` } } />,
+            icon: <SmileOutlined />,
+            style: {
+                display: 'flex',
+                justifyContent: `center`,
+                alignItems: `center`,
+              },
         } )
     }
 
     const warning = () =>
     {
         message.warning
-            ( {
-                content:
-                    "All fields need to be filled",
-                icon: <SmileOutlined style={ { display: 'flex', justifyContent: `center`, alignItems: `center` } } />,
-            } )
+        ( { content:
+            "All fields need to be filled",
+        })
     }
     const [ errors, setErrors ] = useState( false )
     const validation = () =>
