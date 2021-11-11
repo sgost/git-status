@@ -64,7 +64,7 @@ button:hover{
 #navcont {
   width: 100%;
   height: 100vh;
-  background: white;
+  background-color: red;
   top: 0;
 }
 #navcont #contact {
