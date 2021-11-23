@@ -95,7 +95,7 @@ const Contact = () =>
         }
 
         var url =
-            "https://script.google.com/macros/s/AKfycbyAQZTVLFRN1MdG2RqT5pa2Hhoq-k0mDT7phmwsdpyD2BGmxuBPKemX3PjX63nAywHv/exec"
+            "https://script.google.com/macros/s/AKfycby6DXXQypCUffF3AwK4ClaGflKHhJlgCFMPbt5qbs5wLk75IpVvwV-BEp1ntgd8zVQa/exec"
 
         await fetch( url, {
             method: "POST",

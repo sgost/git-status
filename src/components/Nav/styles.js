@@ -48,7 +48,7 @@ cursor:pointer;
 transition:0.5s ease-in-out;
 }
 button:hover{
-    box-shadow: 0px 0px 1.5vw #2997F9;
+    box-shadow: rgb(41 151 249 / 60%) 0px 0px 1.5vw;
     color:#2997F9;
 }
 }
@@ -64,7 +64,7 @@ button:hover{
 #navcont {
   width: 100%;
   height: 100vh;
-  background-color: red;
+  background: white;
   top: 0;
 }
 #navcont #contact {
@@ -92,7 +92,7 @@ button:hover{
 }
 @media (max-width: 750px) {
   .ant-modal-content {
-    background: white;
+    background: white;z
   }
   .ant-modal-content .ant-modal-footer{
     padding:0;
