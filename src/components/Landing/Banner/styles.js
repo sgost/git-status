@@ -74,25 +74,13 @@ height:100%;
     }
     #bannerSectionContainer #image_matter #image_matter_b2 #img3:nth-child(1){
         animation-name: tree;
-        animation-duration: 1s;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;  
     }
     @keyframes tree {
-        from {transform: rotate(-0.5deg);}
-        to {transform: rotate(0.5deg);}
-      }
-    #bannerSectionContainer #image_matter #image_matter_b2 #img3:nth-child(3){
-        width: 100%;
-        height: 100%;
-        animation-name: example;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;  
-    }
-    @keyframes example {
-        from {height: 100%;}
-        to {height: 99%;}
+        from {transform: rotate(-2deg);}
+        to {transform: rotate(5deg);}
       }
     
 @media (max-width:750px){
