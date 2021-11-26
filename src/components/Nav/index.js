@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "gatsby"
 import { NavSection } from "./styles"
-import img from "../../images/logo.png"
+import img from "../../images/logo.svg"
 import { Modal } from 'antd';
-import Contact from "../Landing/Contact/index";
 
 const Nav = () =>
 {
@@ -64,7 +63,7 @@ const Nav = () =>
             <NavSection>
                 <div id={ navbar ? "NavSection" : "NavSection2" } className="NavSection">
                     <Link to="/" style={{width:`fit-content`, height:`fit-content`, margin:`auto 0`, display:`flex`, alignItems:`center`}}><img src={ img } alt="img" /></Link>
-                    <button onClick={ () => setContact( true ) } >Contact Us</button>
+                    <button onClick={ () => setContact( false ) } >Get in Touch</button>
                 </div>
                 <Modal
                     centered
@@ -79,7 +78,7 @@ const Nav = () =>
                     maskStyle={ { backgroundColor: `white`, height: `fit-content`, padding: `0` } }
                 >
                     <div id="navcont">
-                        <Contact />
+                     
                     </div>
                 </Modal>
             </NavSection>

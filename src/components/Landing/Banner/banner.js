@@ -3,10 +3,9 @@ import React from "react";
 import { BannerSection } from "./styles"
 import bannerimg from "../../../images/landing/banner.svg"
 import bannerimg2 from "../../../images/landing/mob_banner.png"
-import animi2 from "../../../images/landing/bg.png"
-import man2 from "../../../images/landing/man2.png"
+import animi2 from "../../../images/landing/bg.svg"
+import man2 from "../../../images/landing/man.svg"
 import Nav from "../../Nav"
-import { ArrowRightOutlined } from '@ant-design/icons'
 
 
 export default function Banner ()
@@ -36,13 +35,9 @@ export default function Banner ()
                 </div>
                 <div id="image_matter" >
                     <div id="image_matter_b1">
-                        <h1>Team productivity and business
-                            intelligence, all in one.</h1>
-                        <p>Discover why HotKup will be as vital to your team as that first hot cup of morning coffee.</p>
-                        <div id="banner_search">
-                            <input type="text" placeholder="Your email address" />
-                            <button>Join Today - It’s Free<ArrowRightOutlined className="icon" /></button>
-                        </div>
+                        <h1>Earn Peacefully</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, leo convallis adipiscing interdum mi. Scelerisque sit</p>
+                        <button>Know more</button>
                     </div>
                     <div id="image_matter_b2">
                         <img src={ animi2 } alt="img" id="img3" className="img2" data-speed="3" />

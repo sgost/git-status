@@ -29,27 +29,25 @@ z-index:3;
     justify-content:space-between;
     padding:1vw 7.2463768115942vw 1vw 7.2463768115942vw;
 img{
-    width: 11.8705035971223vw;
+    width: 13.6231884057971vw;
+    height:1.08695652173913vw;
 }
 button{
-    width: 12.3188405797101vw;
-height: 3.47826086956522vw;
-border: 0.072463768115942vw solid #2997F9;
-box-sizing: border-box;
-border-radius: 0.579710144927536vw;
+  width: 180px;
+height: 48px;
+border: 1px solid #FFFFFF;
+border-radius: 8px;
 font-style: normal;
-font-weight: 600;
-font-size: 1.15942028985507vw;
-line-height: 2.17391304347826vw;
+font-weight: normal;
+font-size: 16px;
+letter-spacing: 0.02em;
 color: #FFFFFF;
-background:transparent;
 outline:none;
-cursor:pointer;
-transition:0.5s ease-in-out;
+background:transparent;
 }
 button:hover{
-    box-shadow: rgb(41 151 249 / 60%) 0px 0px 1.5vw;
     color:#2997F9;
+    border: 1px solid #2997F9;
 }
 }
 /*==============contact==================*/
@@ -114,12 +112,12 @@ button:hover{
     .NavSection{
         padding: 13px 30px;
         img{
-            width: 90.75px;
+            width: 120px;
+            height:15px;
         }
          button {
             width: 96px;
             height: 32px;
-            border: 1px solid #2997F9;
             border-radius: 4px;
             font-size: 12px;
             line-height: 0;
