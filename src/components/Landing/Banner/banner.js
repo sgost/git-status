@@ -4,6 +4,7 @@ import { BannerSection } from "./styles"
 import bannerimg from "../../../images/landing/banner.svg"
 import bannerimg2 from "../../../images/landing/mob_banner.png"
 import animi2 from "../../../images/landing/bg.svg"
+import tree from "../../../images/landing/tree.svg"
 import man2 from "../../../images/landing/man.svg"
 import Nav from "../../Nav"
 import Ripples from 'react-ripples'
@@ -30,8 +31,8 @@ export default function Banner ()
                         </Ripples>
                     </div>
                     <div id="image_matter_b2">
+                        <img src={ tree } alt="img" id="img3" className="img2" />
                         <img src={ animi2 } alt="img" id="img3" className="img2" />
-
                         <img src={ man2 } alt="img" id="img3" className="img2" />
                     </div>
                 </div>

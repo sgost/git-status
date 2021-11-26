@@ -56,11 +56,11 @@ height:100%;
         line-height: 2.31884057971015vw;
         color: #0E1B33;
         width: 13.6231884057971vw;
-height: 3.5vw;
-background: #FE9315;
-border-radius: 0.579710144927536vw;
-border:none;
-outline:none;
+        height: 3.5vw;
+        background: #FE9315;
+        border-radius: 0.579710144927536vw;
+        border:none;
+        outline:none;
         }
     #bannerSectionContainer #image_matter #image_matter_b2 {
         position:relative;
@@ -69,15 +69,31 @@ outline:none;
     }
     #bannerSectionContainer #image_matter #image_matter_b2 #img3{
         width: 100%;
-height: 100%;
-    }
-    #bannerSectionContainer #image_matter #image_matter_b2 #img3:nth-child(2){
-        width: 100%;
-height: 100%;
+        height: 100%;
         position:absolute;
-        top:0;
-        left:0;
     }
+    #bannerSectionContainer #image_matter #image_matter_b2 #img3:nth-child(1){
+        animation-name: tree;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;  
+    }
+    @keyframes tree {
+        from {transform: rotate(-0.5deg);}
+        to {transform: rotate(0.5deg);}
+      }
+    #bannerSectionContainer #image_matter #image_matter_b2 #img3:nth-child(3){
+        width: 100%;
+        height: 100%;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;  
+    }
+    @keyframes example {
+        from {height: 100%;}
+        to {height: 99%;}
+      }
     
 @media (max-width:750px){
     #bannerSectionContainer{
