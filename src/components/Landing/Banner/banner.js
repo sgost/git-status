@@ -20,7 +20,6 @@ export default function Banner ()
             <div id="bannerSectionContainer">
                 <div id="image_container">
                     <img src={ bannerimg } alt="img" id="img1" />
-                    <img src={ bannerimg2 } alt="img" id="img2" />
                 </div>
                 <div id="image_matter" >
                     <div id="image_matter_b1">

@@ -74,34 +74,31 @@ height:100%;
     }
     #bannerSectionContainer #image_matter #image_matter_b2 #img3:nth-child(1){
         animation-name: tree;
-        animation-duration: 3s;
+        animation-duration: 1.5s;
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;  
     }
     @keyframes tree {
         from {transform: rotate(-2deg);}
-        to {transform: rotate(5deg);}
+        to {transform: rotate(2.5deg);}
       }
     
 @media (max-width:750px){
     #bannerSectionContainer{
         height: 200.731707317073vw;
+        background: #040F22;
     }
     #bannerSectionContainer #image_container #img1{
         display:none;
     }
-    #bannerSectionContainer #image_container #img2{
-        display:flex;
-        width:100%;
-        height:100%;
-    }
      #bannerSectionContainer #image_matter {
-        top: 24vw;
+        top: 30vw;
         left:0;
         width: 100%;
         text-align: center;
         justify-content:center;
         padding:0;
+        flex-direction: column;
     }
      #bannerSectionContainer #image_matter h1 {
         font-size: 7.31707317073171vw;
@@ -124,7 +121,12 @@ font-size: 3.41463414634146vw;
 line-height: 5.1219512195122vw;
     }
     #bannerSectionContainer #image_matter #image_matter_b2{
-       display:none;
+        width: 45.1219512195122vw;
+height: 76.5853658536585vw;
+margin:18.0487804878049vw 0 0 0;
+    }
+    #bannerSectionContainer #image_matter #image_matter_b2 #img3{
+        left:0;
     }
 }
 `
